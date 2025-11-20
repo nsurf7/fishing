@@ -1,0 +1,20 @@
+<style>
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2列 */
+    gap: 10px;                      /* 写真間の隙間 */
+  }
+  .gallery img {
+    width: 100%;
+    border: 5px solid #ccc;        /* 額縁の外枠 */
+    border-radius: 8px;            /* 角を少し丸く */
+    box-shadow: 0 0 10px rgba(0,0,0,0.3); /* 影で額縁感UP */
+  }
+</style>
+
+<div class="gallery">
+  <img src="images/fish1.jpg" alt="釣果1">
+  <img src="images/fish2.jpg" alt="釣果2">
+  <img src="images/fish3.jpg" alt="釣果3">
+  <img src="images/fish4.jpg" alt="釣果4">
+</div>
